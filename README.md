@@ -13,7 +13,10 @@ MacBook,使用multicast广播注册中心暴露发现服务地址提示 Cannot a
 ### 2016.08.17更新说明
 1.新增dubbo.properties,将dubbo配置从spring配置文件分离出来
 
-2.provider打成zip包,根据官方git增加相关脚本
+2.provider打成zip包
+mvn clean assembly:assembly
+
+3.根据官方git增加相关脚本（脚本存放在src/main/scripts,使用src/main/assembly/bin的话bin目录因.gitignore配置会被忽略）
 
 dump.sh - 系统状态
 
@@ -25,7 +28,7 @@ start.sh debug - 调试
 
 stop.sh - 停止
 
-server.sh - 总入
+server.sh - 总入口
 
 server.sh start
 
