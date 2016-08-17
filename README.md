@@ -10,4 +10,4 @@ MacBook,使用multicast广播注册中心暴露发现服务地址提示 Cannot a
 ***
 ### 2016.08.17更新说明
 1.新增dubbo.properties,将dubbo配置从spring配置文件分离出来
-2.provider打成zip包,根据网上资料https://www.xlongwei.com/detail/15040421增加启动和停止脚本
+2.provider打成zip包,根据网上资料 https://www.xlongwei.com/detail/15040421 增加启动和停止脚本
